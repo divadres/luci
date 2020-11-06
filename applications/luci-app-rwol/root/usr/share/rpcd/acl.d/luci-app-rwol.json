@@ -1,0 +1,19 @@
+{
+	"luci-app-rwol": {
+		"description": "Grant access to LuCI app rwol",
+		"write": {
+			"cgi-io": [ "exec" ],
+			"file": {
+				"/var/log/rwol/requests.log": ["write"],
+				"/var/log/rwol/service.log": ["write"]
+			}
+		},
+		"read": {
+			"cgi-io": [ "exec" ],
+			"file": {
+				"/var/log/rwol/requests.log": ["read"],
+				"/var/log/rwol/service.log": ["read"]
+			}
+		}
+	}
+}

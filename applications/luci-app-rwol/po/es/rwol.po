@@ -1,0 +1,128 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-06 00:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/controller/rwol.lua:19
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:17
+msgid "Remote Wake on LAN"
+msgstr "Wake on LAN Remoto"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/controller/rwol.lua:20
+msgid "Settings"
+msgstr "Configuración"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/controller/rwol.lua:21
+msgid "Requests Log"
+msgstr "Registro de solicitudes"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/controller/rwol.lua:22
+msgid "Service Log"
+msgstr "Registro de servicio"
+
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:25
+msgid "Enabled"
+msgstr "Activado"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:26
+msgid "Enable the service."
+msgstr "Activa el servicio."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:30
+msgid "Listen interface"
+msgstr "Interfaz para escuchar"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:31
+msgid "Interface to receive requests."
+msgstr "Interfaz donde llegan las solicitudes."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:38
+msgid "Port"
+msgstr "Puerto"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:39
+msgid "Port to receive requests."
+msgstr "Puerto donde llegan las solicitudes."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:43
+msgid "Broadcast interface"
+msgstr "Interfaz broadcast"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:44
+msgid "Interface to broadcast wol requests."
+msgstr "Interfaz donde se envian los paquetes wol."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:51
+msgid "Service log length"
+msgstr "Tamaño del registro de servicio"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:52
+msgid "Number of last lines stored in service log file (50 to 500)."
+msgstr "Número de últimas lineas guardadas en el archivo de registro de servicio (50 a 500)."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:56
+msgid "Requests log length"
+msgstr "Tamaño del registro de solicitudes"
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:57
+msgid "Number of last lines stored in requests log file (50 to 500)."
+msgstr "Número de últimas lineas guardadas en el archivo de registro de solicitudes (50 a 500)."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:65
+msgid "The port has to be a number from 1 to 65535."
+msgstr "El puerto ha de ser un número de 1 a 65535."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:73
+msgid "The service log length has to be a number from 50 to 500."
+msgstr "El tamaño del registro de servicio ha de ser un número de 50 a 500."
+
+#: applications/luci-app-wol/usr/lib/lua/luci/model/cbi/rwol.lua:81
+msgid "The requests log length has to be a number from 50 to 500."
+msgstr "El tamaño del registro de solicitudes ha de ser un número de 50 a 500."
+
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:25
+msgid "Date"
+msgstr "Fecha"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:26
+msgid "Time"
+msgstr "Hora"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:27
+msgid "Host"
+msgstr "IP"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:28
+msgid "Port"
+msgstr "Puerto"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:29
+msgid "Listen interface"
+msgstr "Interfaz de entrada"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:30
+msgid "Broadcast interface"
+msgstr "Interfaz broadcast"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:31
+msgid "Wake MAC"
+msgstr "Wake MAC"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/request_log.js:39
+msgid "Requests log"
+msgstr "Registro de solicitudes"
+
+#: applications/luci-app-wol/htdocs/luci-static/resources/view/rwol/service_log.js:20
+msgid "Service log"
+msgstr "Registro de servicio"
+
